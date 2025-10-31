@@ -1,0 +1,36 @@
+name: flutter_pagination_helper
+description: A lightweight and reusable Flutter package for implementing pagination with minimal boilerplate. Includes paginated list/grid views and a powerful pagination mixin.
+version: 1.0.0
+homepage: https://github.com/yourusername/flutter_pagination_helper
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+# Package Structure:
+# lib/
+#   ├── flutter_pagination_helper.dart (main export file)
+#   ├── src/
+#   │   ├── mixins/
+#   │   │   └── pagination_mixin.dart
+#   │   ├── widgets/
+#   │   │   ├── paginated_list_view.dart
+#   │   │   └── paginated_grid_view.dart
+#   │   └── models/
+#   │       ├── api_response.dart
+#   │       └── response_status.dart
+#   └── example/
+#       └── main.dart
