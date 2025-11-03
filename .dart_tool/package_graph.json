@@ -1,10 +1,10 @@
 {
   "roots": [
-    "flutter_pagination_helper"
+    "pagination_helper"
   ],
   "packages": [
     {
-      "name": "flutter_pagination_helper",
+      "name": "pagination_helper",
       "version": "1.0.2",
       "dependencies": [
         "flutter"

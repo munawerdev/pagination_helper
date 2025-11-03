@@ -158,7 +158,7 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "flutter_pagination_helper",
+      "name": "pagination_helper",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"

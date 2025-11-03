@@ -62,6 +62,15 @@ class PaginatedGridView<T> extends StatefulWidget {
   /// Whether the grid should shrink wrap
   final bool shrinkWrap;
 
+  /// Creates a paginated [GridView] that automatically triggers [onLoadMore]
+  /// when the user approaches the bottom of the grid. Provide [items] with
+  /// [itemBuilder] to render grid tiles and control loading with
+  /// [isLoadingMore].
+  ///
+  /// Configure layout with [crossAxisCount], [childAspectRatio],
+  /// [crossAxisSpacing], and [mainAxisSpacing]. Optionally enable
+  /// pull-to-refresh via [onRefresh], and customize the bottom loading
+  /// indicator using [loadingWidget].
   const PaginatedGridView({
     super.key,
     required this.items,

@@ -51,6 +51,13 @@ class PaginatedListView<T> extends StatefulWidget {
   /// Whether the list should shrink wrap
   final bool shrinkWrap;
 
+  /// Creates a paginated [ListView] that automatically triggers [onLoadMore]
+  /// as the user scrolls near the bottom. Use [items] with [itemBuilder] to
+  /// render your list, and control loading state with [isLoadingMore].
+  ///
+  /// Optionally provide [onRefresh] to enable pull-to-refresh, customize the
+  /// threshold with [loadMoreThreshold], and pass a [loadingWidget] to display
+  /// at the bottom while more data is loading.
   const PaginatedListView({
     super.key,
     required this.items,
