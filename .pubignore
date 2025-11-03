@@ -1,0 +1,16 @@
+# Exclude misplaced example inside lib if present in repo history
+lib/example/**
+
+# Common project files not needed in the published package
+.git/**
+.github/**
+.idea/**
+.vscode/**
+**/build/**
+**/.dart_tool/**
+**/.flutter-plugins**
+**/.flutter-plugins-dependencies**
+**/.packages
+**/pubspec.lock
+**/.DS_Store
+

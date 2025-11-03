@@ -47,6 +47,15 @@ All notable changes to this project will be documented in this file.
 - Clean, simple API with minimal boilerplate
 - Removed ApiResponse wrapper dependency
 
+## [1.0.2] - 2025-11-03
+
+### Changed
+- Bump version for pub.dev release.
+- Add `example/` Flutter app at package root.
+- Add `repository`, `issue_tracker`, and `topics` to `pubspec.yaml`.
+- Add `.pubignore` to exclude unwanted files from the package.
+- Fix README contributing link to correct repository.
+
 ## [Unreleased]
 
 ### Planned
