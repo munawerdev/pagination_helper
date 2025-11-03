@@ -1,5 +1,5 @@
-name: flutter_pagination_helper_example
-description: Example app for flutter_pagination_helper package
+name: pagination_helper_example
+description: Example app for pagination_helper package
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_pagination_helper:
+  pagination_helper:
     path: ..
 
 dev_dependencies:

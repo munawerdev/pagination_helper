@@ -4,7 +4,7 @@
 /// - [PaginatedListView]: A list view with automatic pagination
 /// - [PaginatedGridView]: A grid view with automatic pagination
 /// - [PaginationMixin]: A mixin for easy pagination logic in Cubits/Blocs
-library flutter_pagination_helper;
+library pagination_helper;
 
 // Mixins
 export 'src/mixins/pagination_mixin.dart';
