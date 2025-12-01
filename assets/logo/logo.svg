@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#90CAF9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="40" fill="url(#grad1)"/>
+  
+  <!-- List View -->
+  <rect x="50" y="45" width="100" height="95" rx="8" fill="#FFFFFF" stroke="#0175C2" stroke-width="2"/>
+  
+  <!-- List Items -->
+  <rect x="60" y="58" width="80" height="11" rx="2" fill="#E3F2FD"/>
+  <rect x="60" y="73" width="80" height="11" rx="2" fill="#BBDEFB"/>
+  <rect x="60" y="88" width="80" height="11" rx="2" fill="#90CAF9"/>
+  <rect x="60" y="103" width="80" height="11" rx="2" fill="#64B5F6"/>
+  <rect x="60" y="118" width="80" height="11" rx="2" fill="#42A5F5" opacity="0.5"/>
+  
+  <!-- Pagination -->
+  <circle cx="75" cy="155" r="6" fill="#FFFFFF"/>
+  <circle cx="100" cy="155" r="6" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="125" cy="155" r="6" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Active page indicator -->
+  <circle cx="75" cy="155" r="4" fill="#0175C2"/>
+  
+  <!-- Navigation -->
+  <circle cx="55" cy="155" r="8" fill="#FFFFFF" stroke="#0175C2" stroke-width="2"/>
+  <path d="M 51 155 L 55 151 L 55 159 Z" fill="#0175C2"/>
+  
+  <circle cx="145" cy="155" r="8" fill="#FFFFFF" stroke="#0175C2" stroke-width="2"/>
+  <path d="M 149 155 L 145 151 L 145 159 Z" fill="#0175C2"/>
+  
+  <!-- Load more indicator -->
+  <path d="M 100 175 L 100 188 M 94 182 L 100 188 L 106 182" 
+        stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
